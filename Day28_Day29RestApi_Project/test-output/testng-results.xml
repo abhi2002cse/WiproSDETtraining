@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-26T01:50:54 IST" name="API Suite" finished-at="2026-05-26T01:51:05 IST" duration-ms="11101">
+    <groups>
+    </groups>
+    <test started-at="2026-05-26T01:50:54 IST" name="User API Test" finished-at="2026-05-26T01:51:05 IST" duration-ms="11101">
+      <class name="restApi.DeleteUserTest">
+        <test-method signature="deleteUser()[pri:0, instance:restApi.DeleteUserTest@30c15d8b]" started-at="2026-05-26T01:50:58 IST" name="deleteUser" finished-at="2026-05-26T01:50:59 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- restApi.DeleteUserTest -->
+      <class name="restApi.LoginDDTTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:restApi.LoginDDTTest@28701274]" started-at="2026-05-26T01:51:04 IST" name="loginTest" data-provider="loginData" finished-at="2026-05-26T01:51:05 IST" duration-ms="548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emilys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emilyspass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:restApi.LoginDDTTest@28701274]" started-at="2026-05-26T01:51:05 IST" name="loginTest" data-provider="loginData" finished-at="2026-05-26T01:51:05 IST" duration-ms="515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[michaelw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[michaelwpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- restApi.LoginDDTTest -->
+      <class name="restApi.UpdateUserTest">
+        <test-method signature="updateUser()[pri:0, instance:restApi.UpdateUserTest@5e0e82ae]" started-at="2026-05-26T01:50:59 IST" name="updateUser" finished-at="2026-05-26T01:51:00 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- restApi.UpdateUserTest -->
+      <class name="restApi.SortUserTest">
+        <test-method signature="sortUsers()[pri:0, instance:restApi.SortUserTest@36fc695d]" started-at="2026-05-26T01:51:03 IST" name="sortUsers" finished-at="2026-05-26T01:51:04 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortUsers -->
+      </class> <!-- restApi.SortUserTest -->
+      <class name="restApi.GetUserTest">
+        <test-method signature="getUsers()[pri:0, instance:restApi.GetUserTest@33d512c1]" started-at="2026-05-26T01:50:55 IST" name="getUsers" finished-at="2026-05-26T01:50:57 IST" duration-ms="2513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+      </class> <!-- restApi.GetUserTest -->
+      <class name="restApi.LimitSkipUserTest">
+        <test-method signature="limitSkipUsers()[pri:0, instance:restApi.LimitSkipUserTest@2b71e916]" started-at="2026-05-26T01:51:02 IST" name="limitSkipUsers" finished-at="2026-05-26T01:51:03 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limitSkipUsers -->
+      </class> <!-- restApi.LimitSkipUserTest -->
+      <class name="restApi.FilterUserTest">
+        <test-method signature="filterUsers()[pri:0, instance:restApi.FilterUserTest@411f53a0]" started-at="2026-05-26T01:51:02 IST" name="filterUsers" finished-at="2026-05-26T01:51:02 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterUsers -->
+      </class> <!-- restApi.FilterUserTest -->
+      <class name="restApi.AddUserTest">
+        <test-method signature="addUser()[pri:0, instance:restApi.AddUserTest@6b2ea799]" started-at="2026-05-26T01:51:01 IST" name="addUser" finished-at="2026-05-26T01:51:02 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- restApi.AddUserTest -->
+      <class name="restApi.UserAuthTest">
+        <test-method signature="authUser()[pri:0, instance:restApi.UserAuthTest@6771beb3]" started-at="2026-05-26T01:51:00 IST" name="authUser" finished-at="2026-05-26T01:51:01 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authUser -->
+      </class> <!-- restApi.UserAuthTest -->
+      <class name="restApi.LoginUserTest">
+        <test-method signature="loginUser()[pri:0, instance:restApi.LoginUserTest@2d3379b4]" started-at="2026-05-26T01:50:57 IST" name="loginUser" finished-at="2026-05-26T01:50:58 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+      </class> <!-- restApi.LoginUserTest -->
+      <class name="restApi.SearchUserTest">
+        <test-method signature="searchUser()[pri:0, instance:restApi.SearchUserTest@51399530]" started-at="2026-05-26T01:51:01 IST" name="searchUser" finished-at="2026-05-26T01:51:01 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+      </class> <!-- restApi.SearchUserTest -->
+    </test> <!-- User API Test -->
+  </suite> <!-- API Suite -->
+</testng-results>

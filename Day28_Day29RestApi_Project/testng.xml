@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Suite">
+
+    <listeners>
+        <listener class-name="reports.ExtentManager"/>
+    </listeners>
+
+    <test name="User API Test">
+
+        <classes>
+
+            <class name="restApi.GetUserTest"/>
+            
+            <class name="restApi.LoginUserTest"/>
+            <class name="restApi.DeleteUserTest"/>
+            <class name="restApi.UpdateUserTest"/>
+            <class name="restApi.UserAuthTest"/>
+            <class name="restApi.SearchUserTest"/>
+            <class name="restApi.AddUserTest"/>
+            <class name="restApi.FilterUserTest"/>
+            <class name="restApi.LimitSkipUserTest"/>
+            <class name="restApi.SortUserTest"/>
+            <class name="restApi.LoginDDTTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

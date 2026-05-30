@@ -1,0 +1,2 @@
+101,icecream,50
+102,pizza,450
